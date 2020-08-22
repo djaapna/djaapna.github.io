@@ -4,7 +4,7 @@ layout: default
 group: join
 ---
 
-# Join the Fraser Lab
+# Join the Dhillon Lab
 Our lab welcomes applicants of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or ability. Furthermore, we are committed to maintaining a supportive and collaborative lab environment. We encourage exploratory inquiries!
 ##### See more about [our lab compact and philosophy.](/compact/)
 
