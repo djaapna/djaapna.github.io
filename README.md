@@ -1,4 +1,4 @@
-# dhillon-lab.github.io
+# djaapna.github.io
 ====================
 
 Technologies this website uses:  
