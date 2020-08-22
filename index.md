@@ -7,7 +7,7 @@ group: home
 # Welcome to the Dhillon Lab!
 {: .display-4}
 <br>
-We are part of the [Deapartment of Nutrition and Exercise Physiology](https://nep.missouri.edu/), and the [Next Generation Precision Health Initiative](https://precisionhealth.umsystem.edu/). 
+We are part of the [Department of Nutrition and Exercise Physiology](https://nep.missouri.edu/), and the [Next Generation Precision Health Initiative](https://precisionhealth.umsystem.edu/). 
 {: .welcomefont}
 
 Research in the lab is focused on personalized nutrition, ingestive behavior and health disparities.
