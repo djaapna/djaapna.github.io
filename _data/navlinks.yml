@@ -35,5 +35,5 @@
 #   group: links
 
 - name: private
-  link: "https://sites.google.com/a/fraserlab.com/ucsf-private/"
+  link: ""
   group: private

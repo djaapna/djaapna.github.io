@@ -12,7 +12,7 @@ Subsequent Position: {{alum.current}} </p>
 {% endfor %}
 
 <br>
-## [SEP High School Interns](http://sep.ucsf.edu/hs_programs/high-school-intern-program/)
+
 
 
 {% for sep in site.data.sep %}
@@ -27,7 +27,7 @@ Subsequent Position: {{sep.current}}<br>
 </div> {% endfor %}
 
 <br>
-## Fraser Lab Visitors
+## Dhillon Lab Visitors
 
 
 {% for visitor in site.data.visitors %}
