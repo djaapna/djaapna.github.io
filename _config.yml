@@ -1,7 +1,7 @@
 name: "Dhillon Lab"
 description: "This is the official web page for the Jaapna Dhillon Lab at Univeristy of Missouri-Columbia."
 
-url: "https://djaapna.github.bio"
+url: "https://djaapna.github.io"
 
 paginate: 5
 plugins: [jekyll-paginate]
