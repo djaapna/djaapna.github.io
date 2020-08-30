@@ -1,5 +1,5 @@
 
-### Dhillon Lab Alumni
+###
 
 
 {% for alum in site.data.alumni %}
@@ -27,7 +27,7 @@ Subsequent Position: {{sep.current}}<br>
 </div> {% endfor %}
 
 <br>
-## Dhillon Lab Visitors
+##
 
 
 {% for visitor in site.data.visitors %}
