@@ -18,10 +18,6 @@
   link: "/mission"
   group: mission
 
-- name: teaching
-  link: "/courses"
-  group: courses
-
 - name: news
   link: "/news"
   group: news
@@ -37,7 +33,3 @@
 # - name: links
 #   link: "/links"
 #   group: links
-
-- name: private
-  link: ""
-  group: private
