@@ -11,9 +11,10 @@ group: mission
 
 ## Dhillon Lab Mission 
 We want to produce high quality research in an uncompromising and highly transparent manner.  We strive to work on unique problems using rigorous methods and like to disseminate our work as it occurs and have a strong focus on publishing preprints in addition to the traditional peer review process. We continuously amend our policies to make our data and methods more accessible to the community.  We strive to be anti-secrecy in all things.
-
 Nutrition Science is an interdisciplinary field and our scientific mission is to integrate biological, genetic,  environmental, and psychosocial factors to investigate the variability in responses to diets and foods.  
 
+<img class="img-fluid" src="/static/img/mission/labposter_vbrains3-01.png" alt="https://sammykatta.com/diversity"; width="365"; height="365"><br>
+              
 <br/>
 <br/>
 
