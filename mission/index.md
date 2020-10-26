@@ -14,7 +14,7 @@ We want to produce high quality research in an uncompromising and highly transpa
 
 Nutrition Science is an interdisciplinary field and our scientific mission is to integrate biological, genetic,  environmental, and psychosocial factors to investigate the variability in responses to diets and foods.  
 
-![https://sammykatta.com/diversity](/static/img/mission/labposter_vbrains3-01.png "Core Lab Values"){: .img-fluid .w-40 p-3 .mx-auto .d-block}
+<img src="/static/img/mission/labposter_vbrains3-01.png" class="rounded float-right" alt="https://sammykatta.com/diversity">
 
 <br/>
 <br/>
