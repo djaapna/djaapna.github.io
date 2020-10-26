@@ -41,7 +41,7 @@ We're all growing, we're all trying to live up to our core values, and essential
 <br/>
 <br/>
 
-##### Health and Personal Emergencies-
+##### Health and Personal Emergencies
 I trust people, and it’s expected that people will have emergencies. Take care of yourself and your loved ones. If somebody says, “I need some time” that's all I need to hear, but I'm here to listen, to help, and to provide whatever resources and support I can both personally and professionally. I don't need to hear any more details unless people are comfortable and they should not mistake my lack of asking with lack of caring or empathy, but rather just that I want to be respectful of people’s space. If you do have to leave the lab, if possible, please let me know what’s going on even if it’s as vague as “personal emergency” or “I need some time” so that we’re in communication about time away and that I know you are ok. In addition, try to pass off, reschedule, or communicate any time sensitive items like deadlines or participant data collection. We are a community, and we are here for one another.  
 ##### Work-Life Fulfillment
 We are all here to grow as scientists, leaders, and people by pursuing ambitious research goals. However, that should never come at the cost of your well-being.  Your mental and physical health are by far the most important consideration in all that you do while in our lab. Moreover, success should not come at the cost of maintaining your interests/hobbies or healthy relationships in your life.  In fact, you are more likely to be successful if you take care of yourself and give time to the things outside of work that matter to you.  Managing your motivation and work habits while integrating interests and commitments outside of work is a key self-leadership skill that will serve you well throughout your career, and now is a great time to build that skill. 
@@ -77,4 +77,4 @@ This development of this compact was heavily guided by similar compacts and phil
 [Heemstra Lab, Emory University](https://docs.google.com/document/d/1a8ecjUWVbXR1JqgbzqRwKmqaNK2cvBsysNFVXk56Lpo/edit)  
 [Mentoring resources, University of Wisconsin-Madison ICTR](https://ictr.wisc.edu/mentoring/mentors-alignment-phase-resources/)  
 [Moghe Lab, Cornell](https://www.moghelab.org/lab-philosophy)  
-[Fraser Lab, University of California San Francisco] (https://fraserlab.com/compact/)
+[Fraser Lab, University of California San Francisco](https://fraserlab.com/compact/)
