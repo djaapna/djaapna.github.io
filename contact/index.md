@@ -16,7 +16,7 @@ group: contact
   Department of Nutrition and Exercise Physiology  <br>
   University of Missouri-Columbia  <br>
   email: jdhillon (at) missouri.edu <br>
-  lab email: MuNepDhillonLab(at) missouri.edu
+  lab email: MuNepDhillonLab(at) missouri.edu <br>
   tel: 573 884 2103
 
 </div>
