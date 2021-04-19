@@ -8,9 +8,10 @@ group: research
 
 #### Functional food and health
 
-Participants are needed by the Department of Nutrition and Exercise Physiology at University of Missouri-Columbia for a study examining effects of functional foods on health outcomes in young adults.
-Please click on the link below to complete the pre-screening questionnaire: <br>
-<a href="https://missouri.qualtrics.com/jfe/form/SV_09bo96Jm0QkrE1L"> Pre-screening questionnaire </a>
+Participants are needed by the Department of Nutrition and Exercise Physiology at University of Missouri-Columbia for a study examining effects of functional foods on health outcomes in young adults with overweight and obesity (Age 18-25, BMI:25-45).<br>
+If you're interested in participating, please click on the link below to complete the pre-screening questionnaire and we'll get back to you. <br>
+<a href="https://missouri.qualtrics.com/jfe/form/SV_09bo96Jm0QkrE1L"> Pre-screening questionnaire </a> <br>
+For more info about the study, please contact Rebecca at munepdhillonlab@missouri.edu 
 
 ###  The Dhillon lab is focused on answering some of the central questions in Nutrition Science: 
 
