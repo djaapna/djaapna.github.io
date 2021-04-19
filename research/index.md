@@ -5,7 +5,9 @@ group: research
 ---
 
 ### Ongoing studies
-Functional food and health
+
+####Functional food and health
+
 Participants are needed by the Department of Nutrition and Exercise Physiology at University of Missouri-Columbia for a study examining effects of functional foods on health outcomes in young adults.
 Please click on the link below to complete the pre-screening questionnaire: <br>
 <a href="https://missouri.qualtrics.com/jfe/form/SV_09bo96Jm0QkrE1L"> Pre-screening questionnaire </a>
