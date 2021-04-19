@@ -4,6 +4,11 @@ layout: default
 group: research
 ---
 
+### Ongoing studies
+Functional food and health. 
+Please click on the link below to complete the pre-screening questionnaire
+https://missouri.qualtrics.com/jfe/form/SV_09bo96Jm0QkrE1L
+
 ###  The Dhillon lab is focused on answering some of the central questions in Nutrition Science: 
 
 #### How can we personalize diets for optimal health?
