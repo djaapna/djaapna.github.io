@@ -4,7 +4,7 @@ layout: default
 group: research
 ---
 
-###  The Dhillon lab is focused on answering some of the central questions in Nutrition Science: 
+###  The Dhillon lab is focused on answering some of the central questions in Nutrition and Exercise Sciences: 
 
 #### How can we personalize diets for optimal health?
 The new frontier of nutrition science lies in tailoring nutrition recommendations to the individual’s phenotype, genotype, food preferences, ethnicity/race, cultural background, and socioecological context. My research delves into personalized nutrition incorporating the aforementioned dimensions, as well as the important role pre-ingestive factors play in food choice and physiology. The integration of multi-omics techniques is important for a mechanistic interpretation of the role of diet in health. 
@@ -16,6 +16,8 @@ The sensory properties of food—that is, taste, texture, odor, flavor, and even
 Apart from the sensory properties of food, factors such as macronutrient composition have a considerable influence on appetite and energy balance as well. Dietary protein, in particular, has been implicated in weight management because of its appetitive properties. We conducted a meta-analysis to clarify these effects and found that higher protein preloads increased fullness ratings more than lower protein preloads under tightly defined conditions only. These findings hold promise for recommendations to manage fullness, and subsequently energy intake and body weight. Hence, pre- and post-ingestive factors can have appetitive and consummatory influences that guide food intake, nutrition, and consequently, health and disease. 
 Our current work funded by a Seed grant at UC Merced is exploring the sensory perceptions of fruits, vegetables, and nuts and their associations with dietary intake and metabolic risk factors in a food desert campus. Disparities in access to food can influence food preferences, which can be lifelong. 
 
-#### How do we incorporate systems biology approaches to understand the effects of nutrition on health?
+#### How does exercise impact the gut microbiome?
+Exercise is an essential therapeutic intervention to mitigate the risk factors associated with obesity and other cardiometabolic diseases. The gut microbiome has recently been associated with obesity. In our lab, we study how exercise, particularly resistance training, impacts the gut microbiome in adults with obesity. 
 
-Despite the rising use of computational models in biological sciences, their potential in nutrition science remains vastly underexplored, primarily because such complex biological research questions require modeling approaches that are expertise dependent and resource intensive. Our research team integrates clinical, microbiome, omics, dietary, and health data obtained from clinical dietary interventions into developing computational models to predict metabolic responses to diets, and for mechanistic interpretations.
+#### How do we incorporate systems biology approaches to understand the effects of nutrition and exercise on health?
+Despite the rising use of computational models in biological sciences, their potential in nutrition and exercise sciences remains vastly underexplored, primarily because such complex biological research questions require modeling approaches that are expertise dependent and resource intensive. Our research team integrates clinical, microbiome, omics, dietary, and health data obtained from clinical interventions into developing computational models to predict metabolic responses to diets, and for mechanistic interpretations.
