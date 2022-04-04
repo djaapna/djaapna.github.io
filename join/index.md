@@ -14,5 +14,5 @@ We are interested in engaging you in a conversation about your scientific backgr
 Inquiries about graduate and undergraduate student positions should be emailed directly to Jaapna Dhillon. 
 
 We have the following staff positions open:
-
+<img class="img-fluid mx-auto d-block" src="/static/img/Postdoc_Ad.jpg" alt="Study Flyer">
 
