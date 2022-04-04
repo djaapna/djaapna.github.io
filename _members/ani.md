@@ -1,6 +1,6 @@
 ---
 name: Onyedika Ani, MS
-image: /static/img/members/Rebecca_Welly.jpg
+image: /static/img/members/Onyedika_Ani.jpg
 position: Doctoral Student
 email: ogang(at) missouri.edu
 
