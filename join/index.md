@@ -14,5 +14,6 @@ We are interested in engaging you in a conversation about your scientific backgr
 Inquiries about graduate and undergraduate student positions should be emailed directly to Jaapna Dhillon. 
 
 ##### As of April 4th, 2022, we have the following staff positions open:
+[Job Ad Document - download here](https://mailmissouri-my.sharepoint.com/:b:/g/personal/jd49d_umsystem_edu/Ef4agD5ZBqtOmC9qyxjTWM8BHUxtN_VS9jB6TJUf8utulA?e=3Gtxeq)
 <img class="img-fluid mx-auto d-block" src="/static/img/Postdoc_Ad.jpg" alt="Study Flyer">
 
