@@ -22,7 +22,3 @@ Exercise is an essential therapeutic intervention to mitigate the risk factors a
 
 #### How do we incorporate systems biology approaches to understand the effects of nutrition and exercise on health?
 Despite the rising use of computational models in biological sciences, their potential in nutrition and exercise sciences remains vastly underexplored, primarily because such complex biological research questions require modeling approaches that are expertise dependent and resource intensive. Our research team integrates clinical, microbiome, omics, dietary, and health data obtained from clinical interventions into developing computational models to predict metabolic responses to diets, and for mechanistic interpretations.
-
-#### Our research portfolio
-<iframe width="560" height="315" src=https://www.youtube.com/embed/ED3cbkDkH5U?start=300 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
