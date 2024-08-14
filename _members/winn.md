@@ -1,5 +1,5 @@
 ---
-name: Caitlyn Winn
+name: Caitlyn Winn, MS
 image: /static/img/members/Caitlyn_Winn.jpg
 position: Doctoral Researcher
 email: cawq6x@missouri.edu

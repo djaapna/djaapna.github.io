@@ -1,7 +1,7 @@
 ---
 name: Onyedika Ani, MS
 image: /static/img/members/Onyedika_Ani.jpg
-position: Doctoral Student
+position: Doctoral Candidate
 email: ogang(at) missouri.edu
 
 

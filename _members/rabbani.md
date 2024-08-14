@@ -1,7 +1,7 @@
 ---
 name: Elaheh Rabbani, MS
 image: /static/img/members/Elaheh_Rabbani.jpg
-position: PhD Student
+position: Doctoral Researcher
 email: erkbq@missouri.edu
 
 
