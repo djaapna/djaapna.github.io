@@ -6,6 +6,9 @@ pi_title: "Assistant Professor"
 division: "Division of Food, Nutrition & Exercise Sciences (FNES)"
 division_url: "https://cafnr.missouri.edu/divisions/food-nutrition-and-exercise-sciences/"
 university: "University of Missouri-Columbia"
+colleges:
+  - "College of Agriculture, Food and Natural Resources"
+  - "School of Medicine"
 
 email: "jdhillon (at) missouri.edu"
 lab_email: "MuNepDhillonLab (at) missouri.edu"

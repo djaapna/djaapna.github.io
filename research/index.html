@@ -5,15 +5,16 @@ layout: default
 group: research
 ---
 
+<div class="research-intro">
 <div class="prose lead">
 <p>Does a food, a dietary pattern, or a set of dietary instructions improve cardiometabolic health? The question seems straightforward but is hard to answer rigorously, because the effects of diet arise from multiple interacting biological processes, are modified by exercise and other lifestyle behaviors, and can differ markedly across individuals, populations, and their environments. Our program integrates three connected lines of work to determine not only whether dietary and lifestyle interventions can improve health, but also how those effects occur, and for whom.</p>
 </div>
-
-<figure class="figure-center">
+<figure class="program-figure">
   <img src="/static/img/research/dhillon_program_figure1.png" alt="Dhillon research program: dietary interventions lead to biological pathways and cardiometabolic health, shaped by contextual factors including food environment, demographics, and behaviors.">
 </figure>
+</div>
 
-<section class="theme">
+<section class="theme theme-block">
 <h2>Human interventions testing whole foods, dietary patterns, and lifestyle effects</h2>
 <div class="prose">
 <p>Nutrition science has progressed from a focus on individual nutrients, to recognition of how the food matrix shapes nutrient action, and more recently, to whole foods (foods that retain all components of the original source) and dietary patterns (specific combinations of foods consumed in a person's diet), the latter two of which anchor our intervention research. Whole-food interventions test how a single food affects health. Dietary pattern interventions test how an overall way of eating improves health under real-world conditions.</p>
@@ -21,7 +22,7 @@ group: research
 </div>
 </section>
 
-<section class="theme">
+<section class="theme theme-block">
 <h2>Mechanisms: the gut microbiome and omics</h2>
 <div class="prose">
 <p>To explain how dietary effects occur, we go beyond conventional cardiometabolic measures to the biological pathways that may underlie diet-induced responses. Gut microbiome (metagenomic), metabolomics, and transcriptomics data are generated prospectively within our trials, and interpreted alongside clinical and physiological outcomes. Metagenomic sequencing of stool samples provides taxonomic profiling of gut microbial communities and, when appropriate, functional interpretation of what those communities can do. Metabolomics profiles thousands of small molecules in blood, including some produced by gut microbes, in the fasting state and during a glucose challenge. Transcriptomics profiles gene expression in blood and adipose tissue.</p>
@@ -29,7 +30,7 @@ group: research
 </div>
 </section>
 
-<section class="theme">
+<section class="theme theme-block">
 <h2>Contextual factors: food environment, food security, demographics, and behaviors</h2>
 <div class="prose">
 <p>Why do individuals and populations respond differently to the same diet? We test how contextual factors, including the food environment, food security, demographics, and behaviors, shape both what people eat and how their bodies respond to dietary change. Our earlier work used qualitative and cross-sectional methods to study the food environment and food security of students on a college campus in a food desert. Our systematic reviews have examined how clinical nutrition interventions represent racial and ethnic groups and whether they account for group-specific eating patterns, diet acceptability, and socioecological context.</p>
@@ -37,7 +38,7 @@ group: research
 </div>
 </section>
 
-<section class="theme">
+<section class="theme theme-block">
 <h2>Pre- and post-ingestive controls of food intake</h2>
 <div class="prose">
 <p>The sensory properties of food, that is, taste, texture, odor, flavor, and even expectations regarding the food, can influence food choice, digestion, and metabolism. Sensory stimulation prior to ingestion elicits a wide array of rapid physiological processes termed cephalic phase responses that enable the body to mount an adaptive response to impending food ingestion. Our work in this area has examined the cephalic phase insulin response to nutritive and low-calorie sweeteners in solid and beverage form, and whether that response influences appetite and energy intake at a subsequent meal.</p>
@@ -47,18 +48,17 @@ group: research
 
 <section class="theme funding">
 <h2>Research funding</h2>
-{% for group in site.data.funding %}
-<h3>{% if group[0] == 'current' %}Current{% else %}Past{% endif %}</h3>
 <div class="table-wrap">
-<table class="data fixed">
-  <colgroup><col style="width:40%"><col style="width:23%"><col style="width:25%"><col style="width:12%"></colgroup>
+<table class="data compact">
   <thead><tr><th>Project</th><th>Grant</th><th>Role</th><th>Years</th></tr></thead>
+  {% for group in site.data.funding %}
   <tbody>
+  <tr class="group-row"><th colspan="4" scope="colgroup">{% if group[0] == 'current' %}Current{% else %}Past{% endif %}</th></tr>
   {% for g in group[1] %}
   <tr><td>{{ g.project }}</td><td>{{ g.grant }}</td><td>{{ g.role }}</td><td class="nowrap">{{ g.years }}</td></tr>
   {% endfor %}
   </tbody>
+  {% endfor %}
 </table>
 </div>
-{% endfor %}
 </section>

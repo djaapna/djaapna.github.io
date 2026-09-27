@@ -6,7 +6,7 @@ url: "https://lab.drjaapnadhillon.com"
 # Visual style: the file name of a TypeUI style in /static/css/styles/ (for example editorial, minimal, terracotta).
 style: editorial-teal
 
-paginate: 10
+paginate: 20
 plugins: [jekyll-paginate]
 paginate_path: "news/page:num"
 
