@@ -1,0 +1,10 @@
+# Photo banners behind page titles (by page group). Pages not listed get a plain color band.
+# Photos are from Unsplash (free to use under the Unsplash License). Credits:
+#   home: Jan Landau (unsplash.com/photos/a39QV_6-nXs)
+#   research: Adam Bezer (unsplash.com/photos/ulSn5MdlSOw)
+#   studies: Shelley Pauls (unsplash.com/photos/Zaiuy5dKeCk)
+#   publications: Yassine Khalfalli (unsplash.com/photos/_c70Nhh6p44)
+home: /static/img/banners/home.jpg
+research: /static/img/banners/research.jpg
+studies: /static/img/banners/studies.jpg
+publications: /static/img/banners/publications.jpg

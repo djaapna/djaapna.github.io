@@ -1,57 +1,49 @@
 ---
 title: Dhillon Lab Members
-layout: members
+layout: default
 group: members
 ---
 
-<h1>Dhillon Lab Members</h1>
+<p class="intro">The Dhillon lab welcomes people of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or ability. See our <a href="/mission/">lab mission and philosophy</a>.</p>
 
-The Dhillon lab welcomes people of any race, religion, national origin, gender identity, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or ability.<br>
-<h5>See our<a href="/mission/"> lab mission and philosophy</a>.</h5>
+{% assign members = site.members | sort: "order" %}
+{% for m in members %}{% if m.pi %}
+<section class="pi" id="dhillon">
+  <img class="pi-photo" src="{{ m.image }}" alt="{{ m.name }}">
+  <div>
+    <h2 class="pi-name">{{ m.name }}</h2>
+    <p class="member-role">{{ m.position }}</p>
+    <p class="member-email">{{ m.email }}</p>
+    <p class="member-links">
+      {% if m.linkedin %}<a href="{{ m.linkedin }}"><img class="icon" src="/static/img/lin_logo.svg" alt=""> LinkedIn</a>{% endif %}
+      {% if m.scholar %}<a href="{{ m.scholar }}"><img class="icon" src="/static/img/gscholar_logo.svg" alt=""> Google Scholar</a>{% endif %}
+    </p>
+    <div class="prose">{{ m.description | markdownify }}</div>
+  </div>
+</section>
+{% endif %}{% endfor %}
 
-{% for member in site.members %}
-        <hr>
-        <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-        <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-            <div class="col-sm-4">
-                <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
-                <strong>{{member.name}}</strong> <br>
-                {% if member.pronouns %}
-                  <em>{{member.pronouns}}</em> <br>
-                {% endif %}
-                {{member.position}} <br>
-                <em>{{member.email}}</em> <br>
-                {% if member.website %}
-                  <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
-                {% endif %}
-                {% if member.orcid %}
-                  <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
-                  <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
-                {% endif %}
-                {% if member.linkedin %}
-                  <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
-                  <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-                {% endif %}
-                {% if member.UCSF %}
-                  <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
-                  <a href= "http://profiles.ucsf.edu/profile/{{member.UCSF}}"> Profile </a> <br>
-                {% endif %}
-                {% if member.scholar %}
-                  <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
-                  <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
-                {% endif %}
-                {% if member.twitter %}
-                  <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
-                  <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
-                {% endif %}
-                {% if member.github %}
-                  <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
-                  <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
-                {% endif %}
-            </div>
-            <div class="col-sm-8">
-                <p class="text-justify">{{member.description | markdownify}}</p>
-            </div>
-        </div>
-{% endfor %}
-<hr>
+<h2 class="section-title">Current members</h2>
+<div class="member-grid">
+{% for m in members %}{% unless m.pi %}
+  <article class="member" id="{{ m.name | slugify }}">
+    <img class="member-photo" src="{{ m.image }}" alt="{{ m.name }}">
+    <h3 class="member-name">{{ m.name }}</h3>
+    <p class="member-role">{{ m.position }}</p>
+    <p class="member-email">{{ m.email }}</p>
+    <div class="member-bio">{{ m.description | markdownify }}</div>
+  </article>
+{% endunless %}{% endfor %}
+</div>
+
+<h2 class="section-title">Alumni</h2>
+<div class="table-wrap">
+<table class="data alumni">
+  <thead><tr><th>Name</th><th>Role in the lab</th><th>Years</th></tr></thead>
+  <tbody>
+  {% for a in site.data.alumni %}
+  <tr><td>{{ a.name }}</td><td>{{ a.role }}</td><td class="nowrap">{{ a.years }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>

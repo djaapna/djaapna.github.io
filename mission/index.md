@@ -2,12 +2,13 @@
 title: Dhillon Lab Mission and Philosophy
 layout: default
 group: mission
+hide_title: true
 ---
 
-<img class="img-fluid mx-auto d-block" src="/static/img/Diversity.png" alt="Dhillon lab at MU">
+<img class="banner" src="/static/img/Diversity.png" alt="Dhillon lab at MU">
 
-# Lab Mission and Philosophy
-<br/>
+<h1 class="page-title">Lab Mission and Philosophy</h1>
+<div class="prose" markdown="1">
 
 ## Dhillon Lab Mission 
 We want to produce high quality research in an uncompromising and highly transparent manner.  We strive to work on unique problems using rigorous methods and like to disseminate our work as it occurs and have a strong focus on publishing preprints in addition to the traditional peer review process. We continuously amend our policies to make our data and methods more accessible to the community.  We strive to be anti-secrecy in all things.
@@ -75,3 +76,4 @@ This development of this compact was heavily guided by similar compacts and phil
 [Mentoring resources, University of Wisconsin-Madison ICTR](https://ictr.wisc.edu/mentoring/mentors-alignment-phase-resources/)  
 [Moghe Lab, Cornell](https://www.moghelab.org/lab-philosophy)  
 [Fraser Lab, University of California San Francisco](https://fraserlab.com/compact/)
+</div>

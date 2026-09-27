@@ -1,47 +1,24 @@
 ---
 title: News from the Dhillon Lab
+heading: News
 layout: postlist
 group: news
 ---
 
-
-<!-- This loops through the paginated posts -->
+<ul class="news-list">
 {% for post in paginator.posts %}
-  <hr>
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p class="author">
-    <span class="author"><a href="/members#{{post.author}}">{{post.author}}</a></span><br>
-    <span class="date"><em>{{ post.date | date_to_long_string }}</em></span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+  <li>
+    <p class="news-date">{% if post.date_label %}{{ post.date_label }}{% else %}{{ post.date | date: "%B %Y" }}{% endif %}</p>
+    <h2 class="news-title"><a href="{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a></h2>
+    {% assign txt = post.content | strip_html | strip %}{% if txt != "" %}<p class="news-excerpt">{{ txt | truncatewords: 40 }}</p>{% endif %}
+  </li>
 {% endfor %}
-<hr>
-
-<!-- This makes links to other paginator pages -->
-{% if paginator.total_pages > 1 %}
-<ul class="pagination">
-  {% if paginator.previous_page %}
-    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-  {% else %}
-    <li><span>&laquo; Prev</span></li>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <li class="active"><span>{{ page }}</span></li>
-    {% elsif page == 1 %}
-      <li><a href="{{ '/news' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-    {% else %}
-      <li><a href="{{ '/news/page:num' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-  {% else %}
-    <li><span>Next &raquo;</span></li>
-  {% endif %}
 </ul>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" aria-label="News pages">
+  {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&larr; Newer</a>{% endif %}
+  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}<a href="{{ paginator.next_page_path | replace: '//', '/' }}">Older &rarr;</a>{% endif %}
+</nav>
 {% endif %}

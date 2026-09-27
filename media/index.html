@@ -1,0 +1,25 @@
+---
+title: Talks and Media
+heading: Talks &amp; Media
+layout: default
+group: media
+---
+
+<h2 class="section-title">Watch</h2>
+<ul class="media-list">
+{% for w in site.data.media.watch %}
+  <li><p class="media-title"><em>{{ w.title }}</em></p><p class="media-meta">{{ w.venue }} ({{ w.year }}) · <a href="{{ w.url }}">{{ w.link_label }}</a></p></li>
+{% endfor %}
+</ul>
+
+<h2 class="section-title">In the news</h2>
+<div class="table-wrap">
+<table class="data">
+  <thead><tr><th>Outlet</th><th>Story</th><th>About</th></tr></thead>
+  <tbody>
+  {% for n in site.data.media.news %}
+  <tr><td>{{ n.outlet }}</td><td><a href="{{ n.url }}">{{ n.story }}</a>{% if n.note %} {{ n.note }}{% endif %}</td><td>{{ n.about }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>

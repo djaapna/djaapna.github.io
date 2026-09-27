@@ -1,0 +1,40 @@
+/* TypeUI "editorial" base with a navy accent and spacing, applied to the Dhillon Lab layout.
+   Font is the system font the original site used (not Editorial's Gelasio); text is black; body text 18px, small text 17px, labels 15px. */
+:root {
+  --primary: #1F3A5F;
+  --secondary: #F1F1F1;
+  --surface: #FFFFFF;
+  --text: #000000;
+  --accent: #1F3A5F;
+  --on-accent: #FFFFFF;
+  --on-secondary: #000000;
+  --brand-ink: #000000;
+  --link-line: #000000;
+  --font-head: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-mono: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --fs-h1: 2.75rem;
+  --fs-h2: 1.75rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1.125rem;
+  --fs-small: 1.0625rem;
+  --fs-label: 0.9375rem;
+  --header-bg: #1F3A5F;
+  --header-ink: #FFFFFF;
+  --header-rule: #C9D6E5;
+  --nav-hover: rgba(255,255,255,0.45);
+  --nav-current: #FFFFFF;
+  --band-bg: #EAF0F6;
+  --band-ink: #000000;
+  --band-rule: #C9D6E5;
+  --band-overlay: rgba(22,42,69,0.88);
+  --band-overlay-top: rgba(22,42,69,0.30);
+  --footer-bg: #162A45;
+  --footer-ink: #FFFFFF;
+  --th-bg: #EAF0F6;
+  --card-rule: #1F3A5F;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px;
+}

@@ -1,39 +1,39 @@
-- name: home
+- name: Home
   link: "/"
   group: home
 
-- name: research
-  link: "/research"
+- name: Research
+  link: "/research/"
   group: research
 
-- name: studies
-  link: "/studies"
+- name: Studies
+  link: "/studies/"
   group: studies
 
-- name: publications
-  link: "/publications"
+- name: Publications
+  link: "/publications/"
   group: publications
 
-- name: members
-  link: "/members"
+- name: Members
+  link: "/members/"
   group: members
 
-- name: mission
-  link: "/mission"
+- name: Mission
+  link: "/mission/"
   group: mission
 
-- name: news
-  link: "/news"
+- name: News
+  link: "/news/"
   group: news
 
-- name: join
-  link: "/join"
+- name: Talks & Media
+  link: "/media/"
+  group: media
+
+- name: Join
+  link: "/join/"
   group: join
 
-- name: contact
-  link: "/contact"
+- name: Contact
+  link: "/contact/"
   group: contact
-
-# - name: links
-#   link: "/links"
-#   group: links

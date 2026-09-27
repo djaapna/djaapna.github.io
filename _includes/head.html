@@ -1,0 +1,9 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.group != 'home' %}{{ page.title | strip_html }} | {% endif %}{{ site.name }}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="/static/css/styles/{{ site.style | default: 'editorial' }}.css">
+<link rel="stylesheet" href="/static/css/site.css">
+{% if page.group == 'news' %}<link rel="alternate" type="application/atom+xml" title="Dhillon Lab News" href="/news.xml">{% endif %}

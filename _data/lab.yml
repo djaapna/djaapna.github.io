@@ -1,0 +1,21 @@
+# Lab and PI details used across the site (header, footer, sidebar, contact page).
+# Edit here once; every page updates.
+
+pi_name: "Jaapna Dhillon, PhD"
+pi_title: "Assistant Professor"
+division: "Division of Food, Nutrition & Exercise Sciences (FNES)"
+division_url: "https://cafnr.missouri.edu/divisions/food-nutrition-and-exercise-sciences/"
+university: "University of Missouri-Columbia"
+
+email: "jdhillon (at) missouri.edu"
+lab_email: "MuNepDhillonLab (at) missouri.edu"
+phone: "573 884 2103"
+
+building: "Gwynn Hall"
+office: "Room 312 (Office)"
+lab_room: "210 (Lab)"
+street: "520 Hitt Street"
+city: "Columbia, MO 65211"
+
+linkedin: "https://www.linkedin.com/in/jaapna-dhillon-phd-a3227527/"
+scholar: "https://scholar.google.com/citations?user=lUb0hUgAAAAJ"

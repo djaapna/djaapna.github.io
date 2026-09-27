@@ -1,16 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
 {% include header.html %}
-
-<div class="container px-2 max-width: 100%">
-    <img class="img-fluid mx-auto d-block" src="/static/img/Dhillonlabheader.png" alt="Personalized Nutrition and Ingestive Behavior">
-    <div class="row"> 
-        <div class="col-sm-8">	
-    	    <div class="jumbotron h-100">
-        	    {{ content }}
-            </div>
-        </div>
-        <div class="col">
-            {% include sidebar.html %}
-        </div>
-    </div>
+{% assign banner = site.data.banners[page.group] %}
+<div class="page-band hero{% if banner %} has-image{% endif %}"{% if banner %} style="background-image: url('{{ banner }}')"{% endif %}>
+  <div class="container"><h1 class="home-title">{{ page.heading }}</h1></div>
 </div>
+<main id="main" class="container page home">
+  <div class="home-grid">
+    <div class="home-main">
+      {{ content }}
+    </div>
+    <aside class="home-side">
+      {% include sidebar.html %}
+    </aside>
+  </div>
+</main>
 {% include footer.html %}
+</body>
+</html>

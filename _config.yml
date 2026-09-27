@@ -1,9 +1,12 @@
 name: "Dhillon Lab"
-description: "This is the official web page for the Jaapna Dhillon Lab at University of Missouri-Columbia."
+description: "The Dhillon Lab in the Division of Food, Nutrition & Exercise Sciences at the University of Missouri studies whole-food, dietary pattern, and lifestyle interventions, the gut microbiome and omics, and the contextual factors that shape cardiometabolic responses to diet."
 
-url: "https://djaapna.github.io"
+url: "https://lab.drjaapnadhillon.com"
 
-paginate: 5
+# Visual style: the file name of a TypeUI style in /static/css/styles/ (for example editorial, minimal, terracotta).
+style: editorial-teal
+
+paginate: 10
 plugins: [jekyll-paginate]
 paginate_path: "news/page:num"
 
@@ -13,21 +16,27 @@ kramdown:
   parse_block_html: true
 
 exclude:
-        - .sass-cache/
-        - .jekyll-cache/
-        - gemfiles/
-        - Gemfile
-        - Gemfile.lock
-        - node_modules/
-        - vendor/bundle/
-        - vendor/cache/
-        - vendor/gems/
-        - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+  - LICENSE
 
 collections:
-        members:
-                output: true
-        publications:
-                output: true
+  members:
+    output: false
+  publications:
+    output: false
 
-theme: jekyll-theme-architect
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      group: news
+      author: Jaapna Dhillon

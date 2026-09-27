@@ -1,0 +1,32 @@
+/* TypeUI "editorial" design skill tokens (from its DESIGN.md), applied to the Dhillon Lab layout. */
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/gelasio-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 500; font-style: normal; font-display: swap; src: url("/static/fonts/gelasio-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 600; font-style: normal; font-display: swap; src: url("/static/fonts/gelasio-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: normal; font-display: swap; src: url("/static/fonts/gelasio-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: italic; font-display: swap; src: url("/static/fonts/gelasio-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Ubuntu Mono"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/ubuntu-mono-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Ubuntu Mono"; font-weight: 700; font-style: normal; font-display: swap; src: url("/static/fonts/ubuntu-mono-latin-700-normal.woff2") format("woff2"); }
+:root {
+  --primary: #111111;
+  --secondary: #f1f1f1;
+  --surface: #FFFFFF;
+  --text: #111827;
+  --accent: #111111;
+  --on-accent: #FFFFFF;
+  --on-secondary: #111827;
+  --brand-ink: #111111;
+  --link-line: #111111;
+  --font-head: "Gelasio", Georgia, "Times New Roman", serif;
+  --font-body: "Gelasio", Georgia, "Times New Roman", serif;
+  --font-mono: "Ubuntu Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --fs-h1: 2.5rem;
+  --fs-h2: 1.5rem;
+  --fs-h3: 1.125rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-label: 0.875rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --space-1: 4px; --space-2: 8px; --space-3: 16px; --space-4: 24px;
+  --space-5: 32px; --space-6: 48px; --space-7: 64px;
+}

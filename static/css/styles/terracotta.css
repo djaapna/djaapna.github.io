@@ -1,0 +1,31 @@
+/* TypeUI "terracotta" design skill tokens (from its DESIGN.md), applied to the Dhillon Lab layout. */
+@font-face { font-family: "DM Serif Display"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/dm-serif-display-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "DM Serif Display"; font-weight: 400; font-style: italic; font-display: swap; src: url("/static/fonts/dm-serif-display-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/jetbrains-mono-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; font-style: normal; font-display: swap; src: url("/static/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 600; font-style: normal; font-display: swap; src: url("/static/fonts/jetbrains-mono-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 700; font-style: normal; font-display: swap; src: url("/static/fonts/jetbrains-mono-latin-700-normal.woff2") format("woff2"); }
+:root {
+  --primary: #C56A3C;
+  --secondary: #F3E9D8;
+  --surface: #FFFFFF;
+  --text: #111827;
+  --accent: #C56A3C;
+  --on-accent: #111827;
+  --on-secondary: #111827;
+  --brand-ink: #C56A3C;
+  --link-line: #C56A3C;
+  --font-head: "DM Serif Display", Georgia, "Times New Roman", serif;
+  --font-body: "DM Serif Display", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --fs-h1: 2.5rem;
+  --fs-h2: 1.5rem;
+  --fs-h3: 1.125rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-label: 0.875rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 32px;
+}

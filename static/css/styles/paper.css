@@ -1,0 +1,35 @@
+/* TypeUI "paper" design skill tokens (from its DESIGN.md), applied to the Dhillon Lab layout. */
+@font-face { font-family: "Montserrat"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/montserrat-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 500; font-style: normal; font-display: swap; src: url("/static/fonts/montserrat-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 600; font-style: normal; font-display: swap; src: url("/static/fonts/montserrat-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 700; font-style: normal; font-display: swap; src: url("/static/fonts/montserrat-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/roboto-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 500; font-style: normal; font-display: swap; src: url("/static/fonts/roboto-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 600; font-style: normal; font-display: swap; src: url("/static/fonts/roboto-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 700; font-style: normal; font-display: swap; src: url("/static/fonts/roboto-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 400; font-style: italic; font-display: swap; src: url("/static/fonts/roboto-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "PT Mono"; font-weight: 400; font-style: normal; font-display: swap; src: url("/static/fonts/pt-mono-latin-400-normal.woff2") format("woff2"); }
+:root {
+  --primary: #111111;
+  --secondary: #8B5CF6;
+  --surface: #FFFFFF;
+  --text: #111827;
+  --accent: #111111;
+  --on-accent: #FFFFFF;
+  --on-secondary: #FFFFFF;
+  --brand-ink: #111111;
+  --link-line: #111111;
+  --font-head: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-body: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "PT Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --fs-h1: 2.5rem;
+  --fs-h2: 1.5rem;
+  --fs-h3: 1.125rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-label: 0.875rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 32px;
+}
