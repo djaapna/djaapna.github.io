@@ -91,6 +91,8 @@ p { margin: 0 0 var(--space-4); }
 .collage figure { margin: 0; min-width: 0; }
 .collage img { width: 100%; height: auto; object-fit: cover; border-radius: var(--radius-md); }
 .collage figcaption { font-size: var(--fs-small); color: var(--muted); margin-top: var(--space-2); }
+/* second photo row: photos 75% of the first row's height (row ratio sums 2.097 vs 2.668) */
+.collage.keep-row { width: calc((100% - 2 * var(--space-3)) * 0.75 * 2.097 / 2.668 + var(--space-3)); }
 
 /* ---------- Research ---------- */
 .figure-center { margin: var(--space-6) 0; max-width: 560px; background: #FFFFFF; border-radius: var(--radius-md); padding: var(--space-3); }
@@ -251,6 +253,8 @@ table.data .group-row th { background: transparent; color: var(--text); border-b
   .collage { flex-wrap: wrap; }
   .collage figure { flex: 1 1 45% !important; }
   .collage figure:first-child { flex-basis: 100% !important; }
+  .collage.keep-row { flex-wrap: nowrap; width: auto; }
+  .collage.keep-row figure, .collage.keep-row figure:first-child { flex: var(--r) 1 0% !important; }
 
   .research-intro { grid-template-columns: 1fr; gap: var(--space-4); }
   .mission-grid, .philosophy-grid, .split, .tile-grid, .tile-grid.two, .contact-grid { grid-template-columns: 1fr; }
