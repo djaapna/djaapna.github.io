@@ -91,8 +91,8 @@ p { margin: 0 0 var(--space-4); }
 .collage figure { margin: 0; min-width: 0; }
 .collage img { width: 100%; height: auto; object-fit: cover; border-radius: var(--radius-md); }
 .collage figcaption { font-size: var(--fs-small); color: var(--muted); margin-top: var(--space-2); }
-/* second photo row: photos 75% of the first row's height (row ratio sums 2.097 vs 2.668) */
-.collage.keep-row { width: calc((100% - 2 * var(--space-3)) * 0.75 * 2.097 / 2.668 + var(--space-3)); }
+/* second photo row: photos 75% of the first row's height (row ratio sums 2.097 vs 2.186) */
+.collage.keep-row { width: calc((100% - 2 * var(--space-3)) * 0.75 * 2.097 / 2.186 + var(--space-3)); }
 
 /* ---------- Research ---------- */
 .figure-center { margin: var(--space-6) 0; max-width: 560px; background: #FFFFFF; border-radius: var(--radius-md); padding: var(--space-3); }
@@ -208,7 +208,7 @@ table.data .group-row th { background: transparent; color: var(--text); border-b
 .news-excerpt p:last-child { margin-bottom: 0; }
 .news-excerpt ul { margin: 0 0 var(--space-2); padding-left: 1.2em; }
 .news-excerpt li { padding: 2px 0; border: 0; }
-.news-excerpt img { max-width: 420px; border-radius: var(--radius-md); margin: var(--space-2) 0; }
+.news-excerpt img { max-width: min(420px, 100%); height: auto; border-radius: var(--radius-md); margin: var(--space-2) 0; }
 .pagination { display: flex; gap: var(--space-5); align-items: center; margin-top: var(--space-6); }
 .post .prose img { margin: var(--space-4) 0; border-radius: var(--radius-md); }
 
